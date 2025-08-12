@@ -1,7 +1,8 @@
 /*
  Author: Anujna Attigadde Jagadish
- Description: Kernel simulator
- This is tasked to initialize and load the file system. Also allows user interaction
+ Description: This file contains the main function that acts as a user-space kernel, coordinating interaction
+ with a custom in-memory file system. It demonstrates core operating system functionality,
+ including process-level concurrency, synchronization, and file system management.
  */
 #include <stdio.h>
 #include <file_system.h>
