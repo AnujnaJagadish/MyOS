@@ -1,4 +1,4 @@
-# Custom Operating System Code·
+# Custom Operating System Code
 
 This repository contains a simple operating system code written in C, featuring a custom in-memory file system. It demonstrates core OS concepts such as file management, user interaction, concurrency, and synchronization.
 
