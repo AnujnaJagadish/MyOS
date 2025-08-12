@@ -30,3 +30,18 @@ make
 this will create an executable *os_simulator* in the build directory inside root.
 
 Run `./os_simulator` to start the program.
+
+## 🧑‍💻 Usage
+
+You will be prompted with a command-line interface where you can:
+
+- Create files  
+- Read or append to files  
+- Rename or delete files  
+- List all files  
+- Exit the system  
+
+---
+
+> **Note**  
+> While this project does not implement a low-level OS kernel or interact with hardware directly, it **mimics operating system behavior** and is ideal for learning purposes or demonstrating OS-level concepts in C.
