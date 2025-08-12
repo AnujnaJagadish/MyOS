@@ -1,13 +1,16 @@
-# OS Simulator·
+# Custom Operating System Code (User-Level In-Memory OS)·
 
-This repository contains a simple in-memory file system implementation in C.
+This repository contains a simple operating system code written in C, featuring a custom in-memory file system. It demonstrates core OS concepts such as file management, user interaction, concurrency, and synchronization.
 
-File system is mutally exclusive (protected by mutex), hence any concurrent operations are
-executed sequentially and not in any order.
+## 🔑 Key Features
 
-Kernel is simulated from the `main()` function which orchestrates user interaction with
-the file system.
+- **In-memory File System**: Supports basic operations like `create`, `read`, `append`, `rename`, `delete`, and `list`.
 
+- **Thread-safe**: File system is protected by a `mutex`, ensuring mutual exclusion during concurrent operations.
+
+- **Command-line Kernel Simulation**: The `main()` function acts as a user-space kernel, handling system calls and coordinating user input.
+
+- **Concurrency Demonstration**: Multiple threads perform file operations simultaneously to simulate concurrent execution.
 
 ## Building the project
 
