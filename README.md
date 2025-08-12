@@ -41,7 +41,4 @@ You will be prompted with a command-line interface where you can:
 - List all files  
 - Exit the system  
 
----
 
-> **Note**  
-> While this project does not implement a low-level OS kernel or interact with hardware directly, it **mimics operating system behavior** and is ideal for learning purposes or demonstrating OS-level concepts in C.
